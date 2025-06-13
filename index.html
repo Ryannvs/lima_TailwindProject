@@ -1,47 +1,48 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./style.css">
-    <script src="https://cdn.tailwindcss.com"></script>
-    <title>Coffee Shop</title>
-  </head>
 
-  <body class="bg-[#221518] relative">
-    <header class="flex">
-      <div class="flex gap-[40vw]">
-        <img src="./img/logo.svg" alt="logo" class="ml-10" />
-        <img src="./img/Icon-navi.svg" alt="" />
-      </div>
-      <menu class="flex gap-[5vw] top-5 absolute right-20 z-40">
-        <li>
-          <a
-            href="#home"
-            class="text-white borderHome  pt-10 rounded-bl-[30px] rounded-br-[30px] py-5 px-5"
-            >Home</a>
-        </li>
-        <li>
-          <a href="#menu" class="text-white">Menu</a>
-        </li>
-        <li>
-          <a href="#services" class="text-white">Services</a>
-        </li>
-        <li>
-          <a href="#product" class="text-white">Product</a>
-        </li>
-        <li>
-          <a href="#blog" class="text-white">Blog</a>
-        </li>
-        <li>
-          <a href="#contact" class="text-white">Contact</a>
-        </li>
-      </menu>
-    </header>
-    <main>
-      <div
-        class="bg-[#7C573C] h-[100vh] w-[50vw] justify-self-end absolute right-0 top-0"
-      ></div>
-    </main>
-  </body>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="./style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300&display=swap" rel="stylesheet" />
+
+  <script src="https://cdn.tailwindcss.com"></script>
+  <title>Coffee Shop</title>
+</head>
+
+<body class="bg-[#221518] relative flex">
+  <header class="flex">
+    <div class="flex gap-[52vw]">
+      <img src="./img/logo.svg" alt="logo" class="ml-10" />
+      <img src="./img/Icon-navi.svg" alt="" />
+    </div>
+    <menu class="flex gap-[2.3vw] top-3 absolute right-[2vw] z-40 font-light" style="font-family: 'Cormorant Garamond', serif;">
+      <li >
+        <a href="#home" class="text-white borderHome pt-10 rounded-bl-[30px]  rounded-br-[30px] py-3 px-3">Home</a>
+      </li>
+      <li>
+        <a href="#menu" class="text-white">Menu</a>
+      </li>
+      <li>
+        <a href="#services" class="text-white">Services</a>
+      </li>
+      <li>
+        <a href="#product" class="text-white">Product</a>
+      </li>
+      <li>
+        <a href="#blog" class="text-white">Blog</a>
+      </li>
+      <li>
+        <a href="#contact" class="text-white">Contact</a>
+      </li>
+    </menu>
+  </header>
+  <main>
+    <div class="bg-[#7C573C] h-[100vh] w-[36vw] justify-self-end absolute right-0 top-0"></div>
+    <div><img src="./img/coffee-landing-transformed copy 1.png" alt="Cafeteira" class="absolute z-10 right-0 w-[80vw] h-auto top-[5vh] object-contain">
+    <img src="./img/Coffees.png" alt="grãos" class="right-[2vw] absolute z-20 top-[6vh] w-[50vw] "></div>
+  </main>
+</body>
+
 </html>
